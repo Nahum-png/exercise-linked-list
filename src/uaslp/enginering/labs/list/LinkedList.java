@@ -4,11 +4,11 @@ public class LinkedList {
     private Node Front;
     private Node Tail;
 
-    public class Iterator{
-        public type field;
+    public class IteratorLinkedList{
+        public Node field;
 
-        public type method(type){
-
+        public Node method(Node node){
+            return (node);
         }
     }
 
@@ -40,16 +40,16 @@ public class LinkedList {
 
     }
 
-    public IteratorArrayList getIterator(){
-
+    public IteratorLinkedList getIterator(){
+        return (null);
     }
 
-    public int size(){
-
+    public Integer size(){
+        return (null);
     }
 
     public Student getAt(int index){
-
+        return (null);
     }
 
     public void insert(Student reference, Student newStudent){
