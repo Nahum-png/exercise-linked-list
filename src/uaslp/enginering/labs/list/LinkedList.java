@@ -4,6 +4,10 @@ public class LinkedList {
     private Node Front;
     private Node Tail;
 
+    public class Iterator{
+
+    }
+
     public Node getFront() {
         return Front;
     }
