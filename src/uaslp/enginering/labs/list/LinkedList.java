@@ -5,7 +5,11 @@ public class LinkedList {
     private Node Tail;
 
     public class Iterator{
+        public type field;
 
+        public type method(type){
+
+        }
     }
 
     public Node getFront() {
