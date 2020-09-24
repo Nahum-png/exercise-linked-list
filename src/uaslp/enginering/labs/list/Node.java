@@ -5,6 +5,10 @@ public class Node {
     public Node previous;
     public Node next;
 
+    public Node(Student student) {
+        this.student = student;
+    }
+
     public Student getStudent() {
         return student;
     }
